@@ -21,6 +21,7 @@
 		8EA6567C1598E78200B627DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA6565A1598E78200B627DA /* Foundation.framework */; };
 		8EA656841598E78200B627DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EA656821598E78200B627DA /* InfoPlist.strings */; };
 		8EA656871598E78200B627DA /* OBJ_C_2_Pro_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA656861598E78200B627DA /* OBJ_C_2_Pro_1Tests.m */; };
+		8EA656961598EFD500B627DA /* textclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA656951598EFD500B627DA /* textclass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		8EA656831598E78200B627DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8EA656851598E78200B627DA /* OBJ_C_2_Pro_1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBJ_C_2_Pro_1Tests.h; sourceTree = "<group>"; };
 		8EA656861598E78200B627DA /* OBJ_C_2_Pro_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBJ_C_2_Pro_1Tests.m; sourceTree = "<group>"; };
+		8EA656941598EFD500B627DA /* textclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textclass.h; sourceTree = "<group>"; };
+		8EA656951598EFD500B627DA /* textclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textclass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				8EA656701598E78200B627DA /* ViewController.h */,
 				8EA656711598E78200B627DA /* ViewController.m */,
 				8EA6565F1598E78200B627DA /* Supporting Files */,
+				8EA656941598EFD500B627DA /* textclass.h */,
+				8EA656951598EFD500B627DA /* textclass.m */,
 			);
 			path = "OBJ C-2 Pro 1";
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				8EA656651598E78200B627DA /* main.m in Sources */,
 				8EA656691598E78200B627DA /* AppDelegate.m in Sources */,
 				8EA656721598E78200B627DA /* ViewController.m in Sources */,
+				8EA656961598EFD500B627DA /* textclass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +449,7 @@
 				8EA6568C1598E78200B627DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EA6568D1598E78200B627DA /* Build configuration list for PBXNativeTarget "OBJ C-2 Pro 1Tests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +458,7 @@
 				8EA6568F1598E78200B627DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

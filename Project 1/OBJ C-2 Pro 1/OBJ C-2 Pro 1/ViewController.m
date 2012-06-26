@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "textclass.h"
 
 @implementation ViewController
 
@@ -20,9 +21,22 @@
 
 - (void)viewDidLoad
 {
+    Textclass = [[ textclass alloc]init];
+    if (Textclass != nil)
+    {
+    
+    }
+    
+    textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 50)];
+    textLabel.text = [Textclass getText];
+    [self.view addSubview:textLabel];                                           
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
+
+
+
 
 - (void)viewDidUnload
 {

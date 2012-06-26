@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+//  #import "textclass.h" or
+@class textclass;
+
 @interface ViewController : UIViewController
+{
+    UILabel * textLabel;
+    
+    textclass * Textclass;
+}
+
 
 @end
