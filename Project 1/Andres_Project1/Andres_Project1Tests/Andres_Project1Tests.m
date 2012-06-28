@@ -1,14 +1,14 @@
 //
-//  OBJ_C_2_Pro_1Tests.m
-//  OBJ C-2 Pro 1Tests
+//  Andres_Project1Tests.m
+//  Andres_Project1Tests
 //
-//  Created by Andres Martinez on 6/25/12.
+//  Created by Andres Martinez on 6/27/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "OBJ_C_2_Pro_1Tests.h"
+#import "Andres_Project1Tests.h"
 
-@implementation OBJ_C_2_Pro_1Tests
+@implementation Andres_Project1Tests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in OBJ C-2 Pro 1Tests");
+    STFail(@"Unit tests are not implemented yet in Andres_Project1Tests");
 }
 
 @end

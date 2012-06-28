@@ -1,22 +1,18 @@
 //
 //  ViewController.h
-//  OBJ C-2 Pro 1
+//  Andres_Project1
 //
-//  Created by Andres Martinez on 6/25/12.
+//  Created by Andres Martinez on 6/27/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-//  #import "textclass.h" or
-@class textclass;
-
 @interface ViewController : UIViewController
 {
-    UILabel * textLabel;
     
-    textclass * Textclass;
+    UILabel *labelFighterType1;  
+    UILabel *labelFighterType2;
+    UILabel *labelFighterType3; 
 }
-
-
 @end

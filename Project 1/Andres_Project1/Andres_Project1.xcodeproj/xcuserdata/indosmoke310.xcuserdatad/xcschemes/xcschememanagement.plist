@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>OBJ C-2 Pro 1.xcscheme</key>
+		<key>Andres_Project1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8EA656531598E78200B627DA</key>
+		<key>8ED2B31F159B9DC50090F200</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8EA656771598E78200B627DA</key>
+		<key>8ED2B343159B9DC50090F200</key>
 		<dict>
 			<key>primary</key>
 			<true/>
