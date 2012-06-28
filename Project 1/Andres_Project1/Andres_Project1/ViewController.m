@@ -40,6 +40,7 @@
             labelFighterType1.numberOfLines = 7;
             labelFighterType1.textColor = [UIColor blackColor];
         }
+        
         [self.view addSubview:labelFighterType1];
    
     }  
