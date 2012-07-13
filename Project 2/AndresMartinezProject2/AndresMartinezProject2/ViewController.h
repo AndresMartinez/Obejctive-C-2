@@ -9,5 +9,33 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    
+    IBOutlet UILabel *calcScreen;
+    IBOutlet UISwitch *powerSwitch;
+    IBOutlet UISegmentedControl *segmentControl;
+    IBOutlet UILabel *segmentTest;
+    int currentOperator;
+    int currentColor;
+    float currentNum;
+    float result;
+
+}
+
+-(IBAction)onSwitch:(id)sender;
+
+-(IBAction)onDigitClick:(id)sender;
+
+-(IBAction)onOpClick:(id)sender;
+
+-(IBAction)onCancelInput:(id)sender;
+
+-(IBAction)onAllClear:(id)sender;
+
+-(IBAction)onInfoClick:(id)sender;
+
+-(IBAction)onColorClick:(id)sender;
+
+
 
 @end
