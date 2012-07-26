@@ -1,5 +1,5 @@
 //
-//  vjhv.h
+//  AppDelegate.h
 //  AndresMartinezProject3
 //
 //  Created by Andres Martinez on 7/19/12.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface vjhv : UIViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
 
 @end

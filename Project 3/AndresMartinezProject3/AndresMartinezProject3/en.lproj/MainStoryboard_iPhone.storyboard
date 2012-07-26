@@ -44,14 +44,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.34816105576924439" green="1" blue="0.25260193246097229" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.24812888994641413" green="0.63018594700892794" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="namelabel" destination="HOE-u9-Ail" id="osd-og-x4z"/>
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="43" y="32"/>
+            <point key="canvasLocation" x="156" y="46"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
